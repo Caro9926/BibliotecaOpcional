@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+
+.row {
+    display: flex;
+}
+
+.column1, .column2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+.navbar {
+    width: 1080px;
+    color: #ffffff;
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+img {
+    height: 20px;
+}
